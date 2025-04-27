@@ -12,6 +12,7 @@ scene.add(mesh);
 camera.position.z = 3;
 
 // Toggle wireframe mode with 'w' key
+// todo: default to wireframe
 window.addEventListener('keydown', e => {
   mesh.material.wireframe = e.key === 'w' ? !mesh.material.wireframe : mesh.material.wireframe;
 });
