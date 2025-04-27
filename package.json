@@ -9,9 +9,22 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^6.3.1"
+    "vite": "^6.3.3"
   },
   "dependencies": {
     "three": "^0.176.0"
-  }
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecorkran/three-toy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ecorkran/three-toy/issues"
+  },
+  "homepage": "https://github.com/ecorkran/three-toy#readme"
 }
