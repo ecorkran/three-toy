@@ -16,7 +16,7 @@ window.addEventListener('resize', onWindowResize, false);
 onWindowResize();
 
 const geometry = new THREE.IcosahedronGeometry(1, 1);
-const material = new THREE.MeshNormalMaterial();
+const material = new THREE.MeshNormalMaterial({ wireframe: true });
 const mesh = new THREE.Mesh(geometry, material);
 scene.background = new THREE.Color(0x000000);
 scene.add(mesh);
